@@ -1,5 +1,7 @@
-setwd("~/Documents/Uni work/Masters/E4990 MSD/msd_proj")
-elec2 <- read.csv("Electronics.csv", quote = "",
+# setwd("~/Documents/Uni work/Masters/E4990 MSD/msd_proj")
+# Set your own working directory here
+
+elec <- read.csv("Electronics.csv", quote = "",
                  stringsAsFactors=F)
 
 library(dplyr)
@@ -21,9 +23,9 @@ n <- dim(elec)[1]
 strs <- strsplit(elec$helpful, "\\/") %>%
     unlist(.) %>%
     as.numeric(.) %>%
-    matrix(., nrow=n, ncol=2)
+    matrix(., nrow=2, ncol=n) %>%
+    t(.)
 
 elec %<>% mutate(., help_score=strs[,1]) %>%
     mutate(., help_total=strs[,2])
 
-apply(elec, 2, function(x) sum(is.na(x)))

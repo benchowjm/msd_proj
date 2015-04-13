@@ -17,6 +17,12 @@ To start using this repository, navigate to a directory of your choice then use 
 ```
 git init
 git remote add msd_proj https://github.com/benchowjm/msd_proj.git
+git pull msd_proj master
+```
 
+Alternatively simply be lazy and use a clone:
 
+```
+git init
+git clone https://github.com/benchowjm/msd_proj
 ```
