@@ -11,6 +11,7 @@ List of Resources used:
 * Unix: <a href="http://www.ee.surrey.ac.uk/Teaching/Unix/index.html" target="_blank">Tutorial</a> for Beginners
 * Unix: <a href="http://steve-parker.org/sh/variables1.shtml" target="_blank">Variables</a>
 * Unix: <a href="http://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/" target="_blank">Arrays</a>
+* R: <a href="http://www.endmemo.com/program/R/grep.php" target="_blank">Regular Expressions</a> in R
 
 To start using this repository, navigate to a directory of your choice then use the following git code:
 
