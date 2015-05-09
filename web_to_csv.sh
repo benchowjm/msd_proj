@@ -19,9 +19,7 @@ gunzip Electronics.txt.gz > Electronics.txt
 chmod u=rwx txt_to_dataframe.sh
 
 ## Issue warning
-echo "Old file will be deleted, if you want to preserve it, enter a replacement filename: "
-read FILE
-cat Electronics.txt > $FILE
+echo "Old file will be deleted"
 
 ## Execute shell script
 ./txt_to_dataframe.sh Electronics.txt Electronics.csv
