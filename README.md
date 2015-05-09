@@ -17,3 +17,5 @@ List of Resources used:
 * Unix: <a href="http://steve-parker.org/sh/variables1.shtml" target="_blank">Variables</a>
 * Unix: <a href="http://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/" target="_blank">Arrays</a>
 * R: <a href="http://www.endmemo.com/program/R/grep.php" target="_blank">Regular Expressions</a> in R
+
+Acknowledgement: We are grateful to Wang Guangyu for helping us with the text-mining part of this assignment.
