@@ -2,6 +2,11 @@
 
 Ara Cho, Ben Chow, Kathy Zhang
 
+To follow our project: 
+* To convert the raw data to a workable csv: run the script web_to_csv.sh. 
+* If you have already downloaded the raw data file from the amazon link below, use the script web_to_csv.sh instead.
+* Next use Cellphones.R (preferably do not source) to explore the data. There are some additional bits and pieces not covered in the report which are featured here as additional analysis.
+
 List of Resources used:
 
 * Markdown: <a href="https://confluence.atlassian.com/display/STASH/Markdown+syntax+guide" target="_blank">Syntax Guide</a>
@@ -12,18 +17,3 @@ List of Resources used:
 * Unix: <a href="http://steve-parker.org/sh/variables1.shtml" target="_blank">Variables</a>
 * Unix: <a href="http://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/" target="_blank">Arrays</a>
 * R: <a href="http://www.endmemo.com/program/R/grep.php" target="_blank">Regular Expressions</a> in R
-
-To start using this repository, navigate to a directory of your choice then use the following git code:
-
-```
-git init;
-git remote add msd_proj https://github.com/benchowjm/msd_proj.git;
-git pull msd_proj master
-```
-
-Alternatively simply be lazy and use a clone:
-
-```
-git init;
-git clone https://github.com/benchowjm/msd_proj
-```
