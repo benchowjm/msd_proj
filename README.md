@@ -4,7 +4,7 @@ Ara Cho, Ben Chow, Kathy Zhang
 
 To follow our project: 
 * To convert the raw data to a workable csv: run the script web_to_csv.sh. 
-* If you have already downloaded the raw data file from the amazon link below, use the script web_to_csv.sh instead.
+* If you have already downloaded the raw data file from the amazon link below, use the script txt_to_dataframe.sh instead.
 * Next use Cellphones.R (preferably do not source) to explore the data. There are some additional bits and pieces not covered in the report which are featured here as additional analysis.
 
 List of Resources used:
